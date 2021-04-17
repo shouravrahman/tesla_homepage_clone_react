@@ -1,0 +1,36 @@
+.header {
+	display: flex;
+	background-color: transparent;
+	background: none;
+	position: fixed;
+	width: 100vw;
+	top: 0;
+	margin: 1rem;
+	margin-top: 1rem;
+	z-index: 100;
+}
+.header__logo {
+	height: 25px;
+	width: 100px;
+	margin-top: 7px;
+}
+.header__center {
+	margin-left: 4.2rem;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+}
+.header__center > p {
+	margin: 15px;
+	text-transform: uppercase;
+}
+.header__right {
+	margin-right: 1rem;
+	display: flex;
+	justify-content: flex-end;
+	text-transform: uppercase;
+}
+.header__right > p {
+	word-spacing: 2px;
+	margin: 10px;
+}
